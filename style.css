@@ -1,0 +1,98 @@
+body{
+	background: #f3f3f3;
+	font-family: 'Roboto', sans-serif;
+}
+
+.alinhar{
+	max-width: 480px;
+	padding: 20px 20px 20px 20px;
+	box-shadow: 0 0 10px black;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.conteudo{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.conteudo h2{
+	margin: 1em 0;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.conteudo p{
+	font-size: 18px;
+	margin: 0.7em;
+}
+
+span{
+	color: #8e0000;
+}
+
+.input-padrao{
+	display: block;
+	margin-bottom: 1em;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.enviar{
+	margin: 1em 0 1em 0;
+	display: block;
+	width: 100%;
+	padding: 0.8em 2em;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+	background: #8e0000;
+	color: white;
+}
+
+.enviar:hover{
+	opacity: 0.8;
+}
+
+.login p{
+	margin: 1em 0;
+	text-align: center;
+}
+
+.login a{
+	color: #8e0000;
+}
+
+.inferior{
+	margin-top: 2em;
+	text-align: center;
+}
+
+.inferior p{
+	font-size: 12px;
+	padding-bottom: 0.5em; 
+}
+
+.inferior ul li{
+	display: inline-block;
+}
+
+.redes-sociais{
+	width: 20px;
+}
+
+.redes-sociais:hover{
+	opacity: 0.5;
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 480px) {
+    .alinhar {
+        box-shadow: none;
+    }
+}
